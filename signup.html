@@ -1,0 +1,38 @@
+<style>
+    form {{
+        background-color: #eee;
+        padding: 20px;
+        margin: 0 auto;
+        width: 540px;
+        font: 16px sans-serif;
+        border-radius: 10px;
+    }}
+    textarea {{
+        margin: 10px 0;
+        width: 540px;
+        height: 120px;
+    }}
+    .error {{ color: red; }}
+</style>
+
+<a href="https://github.com/S0N-0F-A-S0N/User-Signup"><img style="position: fixed; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+
+<form action="/path/" method="POST">
+  <label for="rot"> Name: </label>
+  <input id="rot"name="name" type="text" placeholder="Name" value="{name}"/>
+  <p class="error">{name_error}</p>
+  <br />
+  <label for="rot"> Password: </label>
+  <input id="rot"name="pass1" type="password" placeholder="Password" value="{pass1}"/>
+  <p class="error">{pass1_error}</p>
+  <br />
+  <label for="rot"> Repeat Password: </label>
+  <input id="rot"name="pass2" type="password" placeholder="Password" value="{pass2}"/>
+  <p class="error">{pass2_error}</p>
+  <br />
+  <label for="rot"> Email Address: </label>
+  <input id="rot"name="email" type="text" placeholder="Email" value="{email}"/>
+  <p class="error">{email_error}</p>
+  <br />
+  <input type="submit" />
+</form>
